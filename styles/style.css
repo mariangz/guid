@@ -42,7 +42,18 @@ h2 {
 #productos,
 #nosotros,
 #contacto {
-  scroll-margin-top: 2rem;
+  scroll-margin-top: 16rem;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+main {
+  margin-top: 11rem;
 }
 
 /* ********** HEADER ********** */
@@ -138,12 +149,13 @@ article {
 input[type="button"] {
   display: block;
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   background-color: var(--second-color);
   padding: 0.7rem;
   border-radius: 15px;
   text-transform: uppercase;
   border-style: none;
-  width: 100%;
   color: white;
   cursor: pointer;
   border: 1px solid;
@@ -158,6 +170,7 @@ label {
 }
 
 textarea {
+  width: 100%;
   border-style: none;
   outline-style: none;
   border-bottom: 1px solid var(--second-color);
@@ -190,10 +203,6 @@ li {
   padding: 2rem 0.5rem;
 }
 
-ul {
-  /* list-style: none; */
-}
-
 /* ********** MEDIA QUERIES ********** */
 
 /* ********** MIN-600PX ********** */
@@ -201,6 +210,10 @@ ul {
   h1 {
     text-align: left;
     margin-left: 2rem;
+  }
+
+  main {
+    margin-top: 17rem;
   }
   .about-container {
     display: flex;
@@ -250,15 +263,15 @@ ul {
     opacity: 1;
   }
 
+  .right-side-container {
+    background-color: #faf3ee;
+  }
+
   input[type="button"]:focus,
   input[type="button"]:hover {
     background-color: white;
     border: 1px solid var(--second-color);
     color: var(--second-color);
-  }
-
-  .right-side-container {
-    background-color: #faf3ee;
   }
 
   textarea:hover {
@@ -272,37 +285,25 @@ ul {
   nav li:hover {
     transform: scale(1.1);
   }
+
+  .nav-container {
+    display: block;
+    background-color: var(--main-color);
+    margin-right: auto;
+    text-align: center;
+  }
 }
 
-/* @media (min-width: 800px) {
-    .product-container {
-      flex-direction: row;
-      justify-content: center;
-      margin: 0 auto;
-      max-width: 100%;
-      width: 900px;
-      height: auto;
-    }
-
-    .logo {
-      max-width: 100%;
-      width: 300px;
-      height: auto;
-    }
-
-    .menu-nav {
-      display: block;
-      background-color: var(--main-color);
-      margin-right: auto;
-      text-align: center;
-
-    }
-
-    .menu-nav li {
-      margin: 0;
-      padding: 0 .9rem .8rem .7rem;
-
-      
-    }
+@media (min-width: 800px) {
+  .product-container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 900px;
+    height: auto;
   }
- */
+
+  .menu-nav li {
+    margin: 0;
+    padding: 0 0.9rem 0.8rem 0.7rem;
+  }
+}
