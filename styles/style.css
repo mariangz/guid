@@ -119,9 +119,80 @@ article {
 
 .product-img {
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
   display: block;
   border-radius: 2rem;
   padding: 1rem;
   transition: all 0.5s;
 }
+
+/* ********** FORM ********** */
+.form-container {
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input[type="button"] {
+  display: block;
+  width: 100%;
+  background-color: var(--second-color);
+  padding: 0.7rem;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border-style: none;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  border: 1px solid;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin-bottom: .5rem;
+  font-weight: bold;
+}
+
+textarea {
+  border-style: none;
+  outline-style: none;
+  border-bottom: 1px solid var(--second-color);
+  resize: none;
+  transition: background-color 0.5s;
+}
+
+/* ********** FOOTER ********** */
+footer {
+  width: 100%;
+  height: auto;
+  background-color: var(--main-color);
+}
+
+.footer-container {
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.links {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+li {
+  display: inline-block;
+  padding: 1.5rem 0.5rem;
+  transition: all 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
