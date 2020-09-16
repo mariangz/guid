@@ -93,9 +93,24 @@
       <!--********** FORM **********-->
       <section class="section-form">
         <form class="form-container" action="">
-          <label for="comment" id="contacto">Contactanos</label>
-          <br />
-          <textarea id="comment" name="comment" rows="5" cols="40"> </textarea>
+          <div class="name-container">
+            <label id="name-label"
+              >Nombre
+              <input type="text" name="name" id="name" placeholder="Alberto" required />
+            </label>
+          </div>
+
+          <div class="email-container">
+            <label id="email-label">
+              Email
+              <input type="email" name="mail" id="email" placeholder="miemail@gmail.com" required />
+            </label>
+          </div>
+          <div class="commet-container">
+            <label for="comment" id="contacto">Contactanos</label>
+            <br />
+            <textarea id="comment" name="comment" rows="5" cols="40"> </textarea>
+          </div>
           <section class="btn">
             <input type="button" value="Send" />
           </section>

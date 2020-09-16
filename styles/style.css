@@ -152,6 +152,8 @@ label {
   font-weight: bold;
 }
 
+input[type="text"],
+input[type="email"],
 textarea {
   width: 100%;
   border-style: none;
@@ -159,6 +161,7 @@ textarea {
   border-bottom: 1px solid var(--second-color);
   resize: none;
   transition: background-color 0.5s;
+  margin-bottom: 0.9rem;
 }
 
 /* ********** FOOTER ********** */
