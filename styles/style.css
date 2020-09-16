@@ -6,3 +6,35 @@
   --second-color: #61b6b8;
   --background: #f8f8f8;
 }
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: gray;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+.about-line {
+  display: block;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px var(--second-color) solid;
+  width: 30%;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 2.5rem;
+}
