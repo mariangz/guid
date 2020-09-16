@@ -38,3 +38,21 @@ h2 {
 h2 {
   margin-bottom: 2.5rem;
 }
+
+/* ********** HEADER ********** */
+.nav-container {
+  display: none;
+}
+
+.logo-container {
+  display: grid;
+  place-items: center;
+  background-color: var(--main-color);
+  max-width: 100%;
+}
+
+.logo {
+  max-width: 100%;
+  width: 150px;
+  height: auto;
+}
