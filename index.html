@@ -1,110 +1,124 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Güíd</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/styles/reset.css" />
-  <link rel="stylesheet" href="styles/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet" />
-  <title>Güíd</title>
-</head>
-
-<body>
-  <!-- ********** HEADER ********** -->
-  <header>
-    <div class="logo-container">
-      <img class="logo" src="/images/logo.png" alt="" />
-    </div>
-    <div class="nav-container">
-      <ul>
-        <li><a href="#nosotros" class="links"> Nosotros</a></li>
-        <li><a href="#productos" class="links"> Productos</a></li>
-        <li><a href="#contacto" class="links"> Contacto</a></li>
-      </ul>
-    </div>
-  </header>
-
-  <!--********** MAIN **********-->
-  <main>
-    <!--********** NOSOTROS **********-->
-    <section class="about-section">
-      <div class="about-container">
-        <div class="text-container">
-          <h1 class="about-title" id="nosotros">Nosotros</h1>
-          <hr class="about-line">
-          <p class="about-p">
-            Somos Stefania y Fernando, juntos comenzamos Güíd, un emprendimiento que quiere llevar un
-            toque de diseño a tu hogar con nuestras cortinas estampadas. Podes encontrar más modelos
-            en nuestras <a href="#footer" class="links underline">redes sociales</a>.
-          </p>
-        </div>
-        <div class="img.contain">
-          <figure>
-            <img class="about-img" src="/images/us.svg" alt="" />
-          </figure>
-        </div>
+  <body>
+    <!-- ********** HEADER ********** -->
+    <header>
+      <div class="logo-container">
+        <img class="logo" src="/images/logo.png" alt="" />
       </div>
-      <div class="video-container">
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/4ifQNmeBOZo" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </section>
-
-    <!--********** PRODUCTOS **********-->
-    <section class="product-section">
-      <h2 id="productos">Productos</h2>
-      <div class="products-container">
-        <div class="left-side-container">
-          <article>
-            <img class="product-img" src="/images/dunas.png" alt="cortina motivo dunas" />
-            <p class="product-name">Dunas</p>
-          </article>
-          <article>
-            <img class="product-img" src="/images/hojas.png" alt="cortina motivo hojas" />
-            <p class="product-name">Hojas</p>
-          </article>
-          <article>
-            <img class="product-img" src="/images/magia.png" alt="cortina motivo magia" />
-            <p class="product-name">Magia</p>
-          </article>
-        </div>
-        <div class="right-side-container">
-          <article>
-            <img class="product-img" src="/images/tropical.png" alt="cortina motivo tropical" />
-            <p class="product-name">Tropical</p>
-          </article>
-          <article>
-            <img class="product-img" src="/images/tulipanes.png" alt="cortina motivo tulipanes" />
-            <p class="product-name">Tulipanes</p>
-          </article>
-        </div>
-      </div>
-    </section>
-    <!--********** FORM **********-->
-    <section class="section-form">
-      <form class="form-container" action="">
-        <label for="comment" id="contacto">Contactanos</label>
-        <br />
-        <textarea id="comment" name="comment" rows="5" cols="40"> </textarea>
-        <section class="btn">
-          <input type="button" value="Send" />
-        </section>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <div class="footer-container">
-      <nav id="footer">
+      <div class="nav-container">
         <ul>
-          <li>
-            <a class="links" href="https://www.instagram.com/guid.home/" target="_blank">Instagram</a>
-          </li>
-          <li>
-            <a class="links" href="https://www.facebook.com/G%C3%BC%C3%ADd-Home-106215061208047">Facebook</a>
-          </li>
+          <li><a href="#nosotros" class="links"> Nosotros</a></li>
+          <li><a href="#productos" class="links"> Productos</a></li>
+          <li><a href="#contacto" class="links"> Contacto</a></li>
         </ul>
-      </nav>
-    </div>
-  </footer>
-</body>
+      </div>
+    </header>
+
+    <!--********** MAIN **********-->
+    <main>
+      <!--********** NOSOTROS **********-->
+      <section class="about-section">
+        <div class="about-container">
+          <div class="text-container">
+            <h1 id="nosotros">Nosotros</h1>
+            <hr class="about-line" />
+            <p class="about-p">
+              Somos Stefania y Fernando, juntos comenzamos Güíd, un emprendimiento que quiere llevar
+              un toque de diseño a tu hogar con nuestras cortinas estampadas. Podes encontrar más
+              modelos en nuestras <a href="#footer" class="links underline">redes sociales</a>.
+            </p>
+          </div>
+          <div class="img.contain">
+            <figure>
+              <img class="about-img" src="/images/us.svg" alt="" />
+            </figure>
+          </div>
+        </div>
+        <div class="video-container">
+          <iframe
+            class="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/4ifQNmeBOZo"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <!--********** PRODUCTOS **********-->
+      <section class="product-section">
+        <h2 id="productos">Productos</h2>
+        <div class="products-container">
+          <div class="left-side-container">
+            <article>
+              <img class="product-img" src="/images/dunas.png" alt="cortina motivo dunas" />
+              <p class="product-name">Dunas</p>
+            </article>
+            <article>
+              <img class="product-img" src="/images/hojas.png" alt="cortina motivo hojas" />
+              <p class="product-name">Hojas</p>
+            </article>
+            <article>
+              <img class="product-img" src="/images/magia.png" alt="cortina motivo magia" />
+              <p class="product-name">Magia</p>
+            </article>
+          </div>
+          <div class="right-side-container">
+            <article>
+              <img class="product-img" src="/images/tropical.png" alt="cortina motivo tropical" />
+              <p class="product-name">Tropical</p>
+            </article>
+            <article>
+              <img class="product-img" src="/images/tulipanes.png" alt="cortina motivo tulipanes" />
+              <p class="product-name">Tulipanes</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!--********** FORM **********-->
+      <section class="section-form">
+        <form class="form-container" action="">
+          <label for="comment" id="contacto">Contactanos</label>
+          <br />
+          <textarea id="comment" name="comment" rows="5" cols="40"> </textarea>
+          <section class="btn">
+            <input type="button" value="Send" />
+          </section>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <nav id="footer">
+          <ul>
+            <li>
+              <a class="links" href="https://www.instagram.com/guid.home/" target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a class="links" href="https://www.facebook.com/G%C3%BC%C3%ADd-Home-106215061208047"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
