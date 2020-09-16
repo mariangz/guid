@@ -1,0 +1,8 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  --main-color: #f4e5d9;
+  --second-color: #61b6b8;
+  --background: #f8f8f8;
+}
