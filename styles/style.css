@@ -150,11 +150,13 @@ label {
   text-align: center;
   margin-bottom: 0.5rem;
   font-weight: bold;
+  text-align: left;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
+  padding-top: .5rem;
   width: 100%;
   border-style: none;
   outline-style: none;
@@ -162,6 +164,8 @@ textarea {
   resize: none;
   transition: background-color 0.5s;
   margin-bottom: 0.9rem;
+  font-size: .9rem;
+  font-family: inherit;
 }
 
 /* ********** FOOTER ********** */
@@ -229,6 +233,7 @@ li {
   .text-container {
     order: 1;
     align-self: flex-start;
+
   }
 
   .products-container {
